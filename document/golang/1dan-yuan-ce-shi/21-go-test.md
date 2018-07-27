@@ -15,7 +15,9 @@ func TestAdd(t *testing.T) {
 }
 ```
 
-* 运行用例
+* 运行测试用例
+
+> go test 会运行当前目录下所有以 `_test.go` 结尾的文件
 
 ```
 cd your_test_document/
