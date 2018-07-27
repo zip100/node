@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* GoLang
+* [GoLang](/document/golang.md)
 
 
 
