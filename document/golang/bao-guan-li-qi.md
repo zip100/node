@@ -1,4 +1,7 @@
-···
+```
+cd ~/project/
+glide init
+```
 
-···
+
 
