@@ -1,6 +1,6 @@
 * 测试用例 curd\_test.go 
 
-> 注：测试用例文件名称必须以 `_test.go` 结尾
+> 注：测试用例文件名称必须以 `_test.go` 结尾，测试 func 必须以 Test 开头
 
 ```go
 package curd_test
