@@ -1,4 +1,6 @@
-* 测试用例 curd\_test.go
+* 测试用例 curd\_test.go 
+
+> 注：测试用例文件名称必须以 `_test.go`
 
 ```go
 package curd_test
@@ -22,8 +24,6 @@ go test
 PASS
 ok      _/Users/mike/Documents/develop-environment/htdocs/rc_refactor_go/test/model     0.005s
 ```
-
-
 
 
 
