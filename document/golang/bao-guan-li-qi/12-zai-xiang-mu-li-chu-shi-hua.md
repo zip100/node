@@ -4,5 +4,12 @@
 ~/GoLang/GoWorkspace/src/proect
 ```
 
+* 在项目目录里面初始化 Glide
+
+```
+cd ~/GoLang/GoWorkspace/src/proect
+glide init
+```
+
 
 
