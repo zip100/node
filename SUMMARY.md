@@ -5,7 +5,7 @@
   * [数据结构](document/golang/shu-ju-jie-gou.md)
     * 数组 Array
     * 切片 Slice
-    * 字典 Map
+    * [字典 Map](document/golang/shu-ju-jie-gou/zi-dian-map.md)
   * [单元测试](document/golang/1dan-yuan-ce-shi.md)
     * [go test 基本用法](document/golang/1dan-yuan-ce-shi/21-go-test.md)
   * [包管理器 Glide](document/golang/bao-guan-li-qi.md)
