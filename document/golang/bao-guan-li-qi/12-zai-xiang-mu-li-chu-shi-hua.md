@@ -13,5 +13,7 @@ cd ~/GoLang/GoWorkspace/src/proect
 glide init
 ```
 
+![](/assets/企业微信截图_7e5d80f0-12d2-4dd0-a7a5-0326b70a2eea.png)
+
 
 
