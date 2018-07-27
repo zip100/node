@@ -1,8 +1,18 @@
+
+
+
+
+
+
+
+
+
+
 * Mac 系统下需要先创建 GoLang WorkSpace 
 
 ```sh
 mkdir -p ~/GoLang/GoWorkspace/bin
-mkdir -p ~/GoLang/GoWorkspace/pkb
+mkdir -p ~/GoLang/GoWorkspace/pkg
 mkdir -p ~/GoLang/GoWorkspace/src
 ```
 
@@ -23,4 +33,10 @@ curl https://glide.sh/get | sh
 ```
 
 ![](/assets/WX20180727-111810.png)
+
+
+
+
+
+
 
