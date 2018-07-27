@@ -7,5 +7,5 @@
     * [1.2 在项目里初始化](document/golang/bao-guan-li-qi/12-zai-xiang-mu-li-chu-shi-hua.md)
     * [1.3 配置文件语法](document/golang/bao-guan-li-qi/13-pei-zhi-wen-jian-yu-fa.md)
   * [2.单元测试](document/golang/1dan-yuan-ce-shi.md)
-    * [2.1 go test](document/golang/1dan-yuan-ce-shi/21-go-test.md)
+    * [2.1 go test 基本用法](document/golang/1dan-yuan-ce-shi/21-go-test.md)
 
