@@ -23,17 +23,15 @@ map2 = make(map[string]int)      //字典的创建
 map2["key2"] = 2                 //使用 等号 添加数据项
 ```
 
-
-
 * ##### 字典元素的查找
 
-```
+```go
 v, err := mapName[Key]
 ```
 
 * ##### 字典元素的删除
 
-```
+```go
 delete(mapName, "key")
 ```
 
