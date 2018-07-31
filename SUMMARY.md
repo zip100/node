@@ -12,8 +12,6 @@
     * [Mac 下安装步骤](document/golang/bao-guan-li-qi/11-mac-xia-an-zhuang-bu-zou.md)
     * [项目创建与初始化](document/golang/bao-guan-li-qi/12-zai-xiang-mu-li-chu-shi-hua.md)
     * [配置文件语法](document/golang/bao-guan-li-qi/13-pei-zhi-wen-jian-yu-fa.md)
-* RabbitMq
+* [RabbitMq](rabbitmq.md)
   * [Docker 下部署](/document/rabbitmq/doc.md)
-
-
 
