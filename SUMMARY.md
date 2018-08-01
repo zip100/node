@@ -16,4 +16,5 @@
     * [基本用法](document/golang/ji-ben-yong-fa.md)
 * [RabbitMq](rabbitmq.md)
   * [Docker 下部署](/document/rabbitmq/doc.md)
+  * [延时队列实现](document/rabbitmq/yan-shi-dui-lie-shi-xian.md)
 
