@@ -17,30 +17,25 @@
 * 一个消息被Consumer拒收了，并且reject方法的参数里requeue是false。也就是说不会被再次放在队列里，被其他消费者使用。
 
 * 上面的消息的TTL到了，消息过期了。
+
 * 队列的长度限制满了。排在前面的消息会被丢弃或者扔到死信路由上。
 
 > Dead Letter Exchange其实就是一种普通的exchange，和创建其他exchange没有两样。只是在某一个设置Dead Letter Exchange的队列中有消息过期了，会自动触发消息的转发，发送到Dead Letter Exchange中去。
 
-
-
 具体实现步骤，就是新建一个队列，给队列设置一个TTL，但是不要来消费这个队列，业务消息投递到这个队列之后就就会因为到达TTL指定时间知乎没被消费就被投递到死信交换机，然后再从死信交换机再投递到一个正常消费的队列里面，从而达到延迟执行的效果。
-
-
 
 1. 新建延时队列，并设定延时队列的TTL和DLE
 
 ```
 // 指定需要投递的DLE名称
-x-dead-letter-exchange:	delay.exchange
-// 队列长度挤压消息达到上限之后会被投递到DLE
-x-max-length:	65535
+x-dead-letter-exchange:    delay.exchange
+// 队列长度积压消息达到上限之后会被投递到DLE
+x-max-length:    65535
 // 消息的有效时间有效时间内没被消费也投递的哦DLE
-x-message-ttl:	5000
+x-message-ttl:    5000
 ```
 
 2.新建延时交换机，需要延迟的消息 publish 到此交换机，并投递到上一步建的延时队列
 
 3.新建 delay.exchange 用来消费消息
-
-
 
